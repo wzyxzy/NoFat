@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#FFE1FF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/answer_per_error"/>
+        <TextView
+            android:textColor="@color/colorOrange"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回答错误"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:textSize="15sp"
+            android:textColor="@color/colorTabText"
+            android:id="@+id/fragemtn_two_popupwidns_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+    </ScrollView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/colorTabText"
+        android:text=" 答错题没有乐券奖励哦 "/>
+    <TextView
+        android:id="@+id/fragemtn_two_popupwidns_textview"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:background="@drawable/fragment_two_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="下一题"/>
+</LinearLayout>

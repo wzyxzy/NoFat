@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wzy.nofat.one_activity.TiaoZhanActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/one_tiaozhan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#060606"
+
+        />
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+        android:padding="10dp"
+        android:background="@drawable/one_textview_yuanbian"
+
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="易瘦"
+        />
+        <TextView
+            android:padding="10dp"
+            android:background="@drawable/one_textview_yuanbian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="早"
+            />
+        <TextView
+            android:padding="10dp"
+            android:background="@drawable/one_textview_yuanbian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="中"
+            />
+        <TextView
+            android:padding="10dp"
+            android:background="@drawable/one_textview_yuanbian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="晚"
+            />
+        <TextView
+            android:padding="10dp"
+            android:background="@drawable/one_textview_yuanbian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="睡前"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/one_tiaozhuan_shoushenzhishu"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <com.wzy.nofat.one_webview.One_WebView
+        android:id="@+id/one_tiaochuan_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </com.wzy.nofat.one_webview.One_WebView>
+
+    </LinearLayout>
+
+    </ScrollView>
+        <RadioGroup
+            android:id="@+id/one_tiaozhuan_radiogroup"
+            android:paddingTop="15dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableTop="@drawable/one_tiaozhuan_radiobutton_xin"
+                />
+            <RadioButton
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableTop="@drawable/one_tiaozhuan_radiobutton_xing"
+
+                />
+            <RadioButton
+                android:id="@+id/one_tiaozhuan_fenxiang_rb"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableTop="@drawable/one_tiaozhuan_radiobutton_fenxiang"
+                />
+
+        </RadioGroup>
+
+
+
+
+
+</LinearLayout>

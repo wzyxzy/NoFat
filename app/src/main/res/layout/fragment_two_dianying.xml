@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#FFE1FF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:background="@drawable/shape_linear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="电影"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorTabText"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="看电影需要10个兑奖券，是否观看?"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/colorTabText" />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:textColor="@color/colorOrange"
+            android:id="@+id/fragment_two_button"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:text="确定"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fragment_two_button_one"
+            android:textColor="@color/colorOrange"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

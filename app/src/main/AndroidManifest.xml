@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wzy.nofat">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".applications.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".one_activity.TiaoZhanActivity" />
+        <activity android:name=".activitys.FragmentTwoActivity" />
+        <activity android:name=".activitys.FragmentTwoTitleActivity" />
+        <activity android:name=".activitys.FragmentTwoSendActivity" />
+        <activity android:name=".activitys.FragmentTwoViewActivity" />
+        <activity android:name=".one_activity.TiaoZhuan_WenZhang_Activity" />
+        <activity android:name=".activitys.GotoWebView"></activity>
+        <activity android:name=".activitys.FragmentTwoSendActivityJiao" />
+        <activity
+            android:name=".activitys.VideoViewActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".one_activity.TextVitamio"></activity>
+
+        <activity android:name=".adapters.FragmentSendActivity" />
+        <activity android:name=".activitys.ChouJiangActivity" />
+        <activity android:name=".activitys.FragmentTwo"></activity>
+
+    </application>
+
+</manifest>

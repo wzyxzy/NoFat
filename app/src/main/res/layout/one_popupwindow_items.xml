@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#eceaea"
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分享"
+        android:textSize="25dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/boder_text"
+        />
+
+    <RadioGroup
+        android:paddingTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+           style="@style/one_tiaozhuan_radiogroup"
+            android:drawableTop="@mipmap/one_weixin"
+            android:text="微信"
+            />
+        <RadioButton
+            style="@style/one_tiaozhuan_radiogroup"
+            android:drawableTop="@mipmap/one_weixinquan"
+            android:text="朋友圈"
+            />
+        <RadioButton
+            style="@style/one_tiaozhuan_radiogroup"
+            android:drawableTop="@mipmap/one_qq"
+            android:text="朋友圈"
+            />
+        <RadioButton
+            style="@style/one_tiaozhuan_radiogroup"
+            android:drawableTop="@mipmap/one_kongjian"
+            android:text="朋友圈"
+            />
+    </RadioGroup>
+    <RadioGroup
+        android:paddingTop="8dp"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            style="@style/one_tiaozhuan_radiogroup"
+            android:drawableTop="@mipmap/one_xinlang"
+            android:text="新浪微博"
+            />
+        <RadioButton
+            style="@style/one_tiaozhuan_radiogroup"
+            android:drawableTop="@mipmap/one_tengxunweibo"
+            android:text="腾讯微博"
+            />
+        <RadioButton
+            style="@style/one_tiaozhuan_radiogroup"
+            android:drawableTop="@mipmap/one_yixin"
+            android:text="易信"
+            />
+        <RadioButton
+            style="@style/one_tiaozhuan_radiogroup"
+            android:drawableTop="@mipmap/one_yixinquan"
+            android:text="易信朋友圈"
+            />
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:paddingTop="8dp"
+
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            style="@style/one_tiaozhuan_radiogroup"
+            android:drawableTop="@mipmap/one_youjian"
+            android:text="邮件"
+            />
+        <RadioButton
+            style="@style/one_tiaozhuan_radiogroup"
+            android:drawableTop="@mipmap/one_duanxin"
+            android:text="短信"
+            />
+        <RadioButton
+            style="@style/one_tiaozhuan_radiogroup"
+
+
+            />
+        <RadioButton
+            style="@style/one_tiaozhuan_radiogroup"
+
+
+            />
+    </RadioGroup>
+
+
+</LinearLayout>

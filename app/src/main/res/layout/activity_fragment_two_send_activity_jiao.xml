@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#AEEEEE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wzy.nofat.activitys.FragmentTwoSendActivityJiao">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/fragment_two_return"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/nav_top_return_btn_bg"/>
+        <TextView
+            android:textColor="@color/colorTabText"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="选择你要看的电视台"/>
+    </LinearLayout>
+
+    <ListView
+        android:background="@drawable/shape_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_two_activity_listView"/>
+</LinearLayout>

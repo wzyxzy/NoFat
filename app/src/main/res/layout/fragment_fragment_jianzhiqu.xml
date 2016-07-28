@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wzy.nofat.one_fragment.Fragment_jianzhiqu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <FrameLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/one_shipin_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:background="@drawable/one_jianfei_image"
+                    android:src="@mipmap/jianfei"
+                    android:scaleType="fitXY"
+                    />
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/play"
+                    />
+
+
+            </FrameLayout>
+
+
+            <TextView
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="伟大的瘦神告诉我们一个真理!  要么瘦, 要么-- 啊 --死!"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:background="@drawable/one_jianfei_image"
+                android:text="简介:"
+                />
+            <TextView
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="让这段视频告诉你,怎样亮瞎你闺蜜的双眼!"
+                />
+
+            <TextView
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="不要问我为什么 就是这么任xing!"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+    
+    
+
+
+</LinearLayout>

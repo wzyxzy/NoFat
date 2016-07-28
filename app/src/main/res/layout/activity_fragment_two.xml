@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <ImageView
+            android:id="@+id/activity_fragment_two_image"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/nav_top_return_btn_bg"/>
+        <TextView
+            android:textColor="@color/colorSelectText"
+            android:paddingLeft="95dp"
+            android:gravity="center_vertical"
+            android:text="文章详情"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+        <ListView
+        android:layout_marginTop="8dp"
+        android:id="@+id/activity_fragment_two_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+</LinearLayout>

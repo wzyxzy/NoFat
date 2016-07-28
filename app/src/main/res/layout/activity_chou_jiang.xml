@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.wzy.nofat.activitys.ChouJiangActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/choujiang_return"
+            android:src="@mipmap/nav_top_return_btn_bg"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_marginLeft="130dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="17sp"
+            android:textColor="@color/colorOrange"
+            android:text="抽奖"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/two_fragment_edittext"
+        android:layout_marginTop="10dp"
+        android:text="距离活动结束还有45天"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@color/colorOrange"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/cft"/>
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@mipmap/one_lottery_big"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/lottery_girls"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:textColor="@color/colorOrange"
+            android:textSize="17sp"
+            android:paddingLeft="110dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="我的乐券"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/choujiao_copunt"
+            android:paddingLeft="10dp"
+            android:textColor="@color/colorOrange"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/choujiang_text"
+        android:textSize="18sp"
+        android:textColor="@color/colorTabText"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/shape_linear"
+        android:layout_marginTop="15dp"
+        android:text="1次  抽奖  10乐券"
+        android:layout_width="300dp"
+        android:layout_height="60dp" />
+</LinearLayout>

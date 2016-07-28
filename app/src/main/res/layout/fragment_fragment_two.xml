@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="7dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:padding="7dp"
+        android:id="@+id/fragment_two_linearLayout"
+        android:background="@drawable/two_fragment_layout"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+        <ImageView
+            android:id="@+id/mian_searchView"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ency_search_bt">
+        </ImageView>
+        <TextView
+            android:gravity="center"
+            android:paddingRight="25dp"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="搜索:体重控制"/>
+    </LinearLayout>
+
+    <android.support.design.widget.TabLayout
+        android:layout_marginTop="7dp"
+        app:tabTextColor="@color/colorTabText"
+        app:tabSelectedTextColor="@color/colorSelectText"
+        app:tabIndicatorColor="@color/colorSelectText"
+        app:tabIndicatorHeight="2dp"
+        android:id="@+id/fragment_two_tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragment_two_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

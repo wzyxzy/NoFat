@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:id="@+id/three_prompt_layout"
+    android:background="@drawable/tiko_item_bg_0003">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/three_prompt_img_icon"
+        android:src="@mipmap/tiko_item_icon_0003"/>
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/three_prompt_img_text"
+
+        android:layout_weight="2"
+        android:src="@mipmap/tiko_item_text_0003_good_morning"/>
+    <TextView
+        android:layout_width="0dp"
+        android:id="@+id/three_prompt_content"
+        android:textColor="@color/colorBaiSe"
+        android:gravity="center"
+        android:text="默认数据"
+        android:layout_height="match_parent"
+        android:layout_weight="6"/>
+
+</LinearLayout>

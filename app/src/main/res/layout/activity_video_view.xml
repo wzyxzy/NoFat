@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawerLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--  DreawerLayout 抽屉布局，一般包含俩个ViewGroup，第一个是主的，
+    放的是主页面中的内容,第二个放的是侧滑菜单的内容
+    可以设置抽屉的方向 layout_gravity=right,left,start,end,
+    start,end只可以再高版本中使用，主页面和侧滑抽屉，都可以支持fragment
+    使用fragment的优点：代码能够独立出来，自己管理自己的数据，因为我自己有生命周期，view管理也方便
+    缺点：与主页面传值不方便了，有回调，eventBus
+  -->
+
+    <io.vov.vitamio.widget.CenterLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <io.vov.vitamio.widget.VideoView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/activity_video_view"/>
+    </io.vov.vitamio.widget.CenterLayout>
+    <LinearLayout
+        android:background="#00FFFF"
+        android:id="@+id/activity_video_layout"
+        android:layout_gravity="left"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/draw_list" />
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

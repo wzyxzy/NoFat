@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fragment_two_view_layout_ivone"
+        style="@style/fragment_two_view_layout_style_iv" />
+    <TextView
+        android:gravity="center"
+        android:background="#aa222222"
+        android:textColor="@color/colorBaiSe"
+        android:id="@+id/fragment_two_view_layout_tvone"
+        style="@style/fragment_two_view_layout_style" />
+</FrameLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:paddingLeft="9dp"
+        android:textSize="15sp"
+        android:id="@+id/activity_fragment_two_title"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:hint="title"/>
+    <TextView
+        android:paddingLeft="9dp"
+        android:textSize="15sp"
+        android:id="@+id/activity_fragment_two_desc"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="title"/>
+    <TextView
+        android:paddingLeft="9dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="来源于  别吃胖"/>
+    <WebView
+        android:layout_marginTop="8dp"
+        android:id="@+id/activity_fragment_two_data_webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    android:background="#FFE1FF"
+    tools:context="com.wzy.nofat.adapters.FragmentSendActivity">
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/fragment_two_return_iv"
+            android:src="@mipmap/nav_top_return_btn_bg"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:textSize="22sp"
+            android:textColor="@color/colorOrange"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="答题规则"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorTabText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 竟答题分多组，每组下面有若干小题，用户可以任意选择，也可以重复答题;"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorTabText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 答对题可以获取乐卷，乐卷可以看电视，可以抽奖"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorTabText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3 每答对一道题，可以获得10个乐卷，容许重复答题，每天最多可以获得100张乐卷"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:textColor="@color/colorTabText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4 在抽奖获得中，乐卷有效，在结束以后，乐卷将会被清空"></TextView>
+
+</LinearLayout>
+
